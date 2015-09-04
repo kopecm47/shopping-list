@@ -1,0 +1,122 @@
+html {
+	background-image: url(https://download.unsplash.com/photo-1428515613728-6b4607e44363);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+body {
+	font-family: "Orbitron", sans-serif;
+	text-align: center;
+	color: #FFFFE0;
+	text-transform: uppercase;
+	text-shadow: 0 5px 5px #708090;
+}
+#container{
+	margin-top: 3em;
+	margin-right: 15em;
+	float: right;
+	background-color: #CDB8A4;
+	height: auto;
+	width: 40em;
+}
+h1{
+	font-weight: bold;
+	font-size: 4em;
+	margin: 0;
+	margin-bottom: .25em;
+
+}
+h2,h3{
+	font-size: 1.5em;
+	margin: 0;
+}
+h3{
+	margin-bottom: 1em;
+}
+span{
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+}
+#item{
+	height: 3em;
+	width: 25em;
+	font-family: "Orbitron", sans-serif;
+	text-align: center;
+	color: #FFFFE0;
+	background-color: #CDB8A4;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: .25em solid;
+	border-radius: .75em;
+	box-shadow: 0 5px 5px #708090;
+	margin-top: 2em;
+}
+input[type=text]:focus{
+	border: none;
+	outline: none;
+}
+button{
+	height: 2em;
+	width: 2em;
+	background: none;
+	font-size: 1.5em;
+	color: #FFFFE0;
+	border: .15em solid;
+	border-radius: .75em;
+	box-shadow: 0 5px 5px #708090;
+	text-shadow: 0 5px 5px #708090;
+}
+#reset{
+	width: auto;
+	display: block;
+	margin: 1em;
+	margin-left: 11.5em;
+}
+button:hover{
+	background-color: #708090;
+	cursor: pointer;
+}
+p{
+	background-color: #708090;
+	text-align: center;
+	margin-left: 1em;
+	height: 2em;
+	padding-top: 1em;
+
+}
+#list{
+	list-style: none;
+	text-shadow: none;
+	text-align: left;
+	margin-left: 6em;
+}
+.full-width{
+	width: 25em;
+}
+.strike{
+	text-decoration: line-through !important;
+	color: red;
+}
+.cross-off{
+	cursor: pointer;
+	margin-top: -.25em;
+	float: left;
+	height: 32px;
+	width: 32px;
+	background: url('../images/checkmark_korganizer.png');
+	background-repeat: no-repeat;
+	margin-left: 1em;
+}
+.delete{
+	cursor: pointer;
+	margin-top: -.25em;
+	float: right;
+	height: 32px;
+	width: 32px;
+	background: url('../images/button_cancel.png');
+	background-repeat: no-repeat;
+	margin-right: 1em;
+}
